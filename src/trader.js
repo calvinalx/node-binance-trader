@@ -1068,10 +1068,10 @@ async function UpdateMarginPairs() {
 }
 
 async function run() {
-    await UpdateMarginPairs()
+    // await UpdateMarginPairs()
     await ExchangeInfo()
     await UpdateOpenTrades()
-    //await BalancesInfo()
+    await BalancesInfo()
 }
 
 run()
