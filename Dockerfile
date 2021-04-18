@@ -34,5 +34,3 @@ ENV NODE_ENV=production
 WORKDIR /srv/app/
 
 COPY --from=build /srv/app/ ./
-
-CMD [ "node", "trader.js" ]
