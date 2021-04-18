@@ -35,4 +35,4 @@ WORKDIR /srv/app/
 
 COPY --from=build /srv/app/ ./
 
-CMD [ "node", "trader.js" ]
+CMD [ "node", "src/trader.js" ]
